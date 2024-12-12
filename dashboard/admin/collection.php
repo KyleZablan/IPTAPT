@@ -464,7 +464,7 @@ footer {
     </footer>
     <script>
         function logout() {
-            window.location.href = "main.php"; // Adjust path to your log-out file
+            window.location.href = "main.php";
         }
     </script>
 

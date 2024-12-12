@@ -40,22 +40,22 @@ body {
     background-attachment: fixed;
     min-height: 100%;
     display: flex;
-    justify-content: flex-start; /* Align content to the left */
+    justify-content: flex-start;
     align-items: center;
     overflow: hidden;
 }
 
 .container-register {
     display: flex;
-    justify-content: flex-start; /* Align the boxes to the left */
+    justify-content: flex-start; 
     align-items: center;
     width: 100%;
     padding: 20px;
-    gap: 20px; /* Adds space between the boxes */
+    gap: 20px;
 }
 
 .box, .box1 {
-    background-color: rgba(51, 51, 51, 0.7); /* Slightly transparent dark gray */
+    background-color: rgba(51, 51, 51, 0.7);
     padding: 40px;
     border-radius: 9px;
     width: 350px;

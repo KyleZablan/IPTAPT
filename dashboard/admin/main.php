@@ -25,23 +25,23 @@
 
         h1 {
     position: absolute;
-    bottom: 20px; /* Adjusts the distance from the bottom */
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    width: 200px; /* Width of the tiny box */
-    height: 50px; /* Height of the tiny box */
-    background-color: rgba(51, 51, 51, 0.7); /* Semi-transparent background */
-    border-radius: 10px; /* Rounded corners */
+    width: 200px;
+    height: 50px;
+    background-color: rgba(51, 51, 51, 0.7);
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 1rem;
     color: white;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8); /* Text shadow for better readability */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-        /* Hover effect */
+        
         body:hover {
             cursor: pointer;
         }
@@ -52,7 +52,7 @@
 
     <script>
         function redirectToLogin() {
-            // Replace '/IPT-V1/index.php' with the actual URL path of your login page
+           
             window.location.href = "/IPT-V1/index.php";
         }
     </script>
